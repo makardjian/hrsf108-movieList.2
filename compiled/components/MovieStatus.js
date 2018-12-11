@@ -1,0 +1,24 @@
+
+
+var MovieStatus = props => React.createElement(
+	"div",
+	{ className: "movie-status-buttons" },
+	React.createElement(
+		"button",
+		{ className: "watched-button", onClick: event => props.filterMovies(0) },
+		"Watched Movies"
+	),
+	React.createElement(
+		"button",
+		{ className: "movies-to-see", onClick: event => props.filterMovies(1) },
+		"Must-see Movies"
+	),
+	React.createElement(
+		"button",
+		{ className: "all-movies", onClick: event => props.filterMovies(2) },
+		"All Movies"
+	)
+);
+
+export default MovieStatus;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NvbXBvbmVudHMvTW92aWVTdGF0dXMuanN4Il0sIm5hbWVzIjpbIk1vdmllU3RhdHVzIiwicHJvcHMiLCJldmVudCIsImZpbHRlck1vdmllcyJdLCJtYXBwaW5ncyI6Ijs7QUFHQSxJQUFJQSxjQUFlQyxLQUFELElBRWpCO0FBQUE7QUFBQSxHQUFLLFdBQVUsc0JBQWY7QUFDQztBQUFBO0FBQUEsSUFBUSxXQUFVLGdCQUFsQixFQUFtQyxTQUFVQyxLQUFELElBQzNDRCxNQUFNRSxZQUFOLENBQW1CLENBQW5CLENBREQ7QUFBQTtBQUFBLEVBREQ7QUFJQztBQUFBO0FBQUEsSUFBUSxXQUFVLGVBQWxCLEVBQWtDLFNBQVVELEtBQUQsSUFDMUNELE1BQU1FLFlBQU4sQ0FBbUIsQ0FBbkIsQ0FERDtBQUFBO0FBQUEsRUFKRDtBQU9DO0FBQUE7QUFBQSxJQUFRLFdBQVUsWUFBbEIsRUFBK0IsU0FBVUQsS0FBRCxJQUN2Q0QsTUFBTUUsWUFBTixDQUFtQixDQUFuQixDQUREO0FBQUE7QUFBQTtBQVBELENBRkQ7O0FBa0JBLGVBQWVILFdBQWYiLCJmaWxlIjoiTW92aWVTdGF0dXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuXG52YXIgTW92aWVTdGF0dXMgPSAocHJvcHMpID0+IChcblxuXHQ8ZGl2IGNsYXNzTmFtZT1cIm1vdmllLXN0YXR1cy1idXR0b25zXCI+XG5cdFx0PGJ1dHRvbiBjbGFzc05hbWU9XCJ3YXRjaGVkLWJ1dHRvblwiIG9uQ2xpY2s9eyhldmVudCkgPT4gXG5cdFx0XHRwcm9wcy5maWx0ZXJNb3ZpZXMoMCl9PldhdGNoZWQgTW92aWVzPC9idXR0b24+XG5cblx0XHQ8YnV0dG9uIGNsYXNzTmFtZT1cIm1vdmllcy10by1zZWVcIiBvbkNsaWNrPXsoZXZlbnQpID0+IFxuXHRcdFx0cHJvcHMuZmlsdGVyTW92aWVzKDEpfT5NdXN0LXNlZSBNb3ZpZXM8L2J1dHRvbj5cblxuXHRcdDxidXR0b24gY2xhc3NOYW1lPVwiYWxsLW1vdmllc1wiIG9uQ2xpY2s9eyhldmVudCkgPT4gXG5cdFx0XHRwcm9wcy5maWx0ZXJNb3ZpZXMoMil9PkFsbCBNb3ZpZXM8L2J1dHRvbj5cblxuXG5cdDwvZGl2PlxuXG5cdClcblxuXG5leHBvcnQgZGVmYXVsdCBNb3ZpZVN0YXR1czsiXX0=
